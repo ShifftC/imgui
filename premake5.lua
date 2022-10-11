@@ -1,5 +1,5 @@
 project("ImGui")
-kind("StaticLib")
+    kind("StaticLib")
 	language("C++")
 	cppdialect("C++20")
     staticruntime("Off")
