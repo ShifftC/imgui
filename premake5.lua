@@ -1,3 +1,5 @@
+-- premake5.lua
+
 project("ImGui")
     kind("StaticLib")
 	language("C++")
@@ -20,3 +22,5 @@ project("ImGui")
 
 	targetdir("%{OutputDir.target}")
 	objdir("%{OutputDir.obj}")
+
+	filter({})
